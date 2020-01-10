@@ -1,0 +1,215 @@
+[
+    [{
+        "title": "一键选酒",
+        "href": "http://www.jiuxian.com/",
+        "text": [
+            [{
+                "src": "http://shop.jiuxian.com/brand-382/activity-3684.htm?area=30",
+                "text": "整箱购"
+            }, {
+                "src": "http://shop.jiuxian.com/brand-371/activity-679.htm?area=30",
+                "text": "家乡名酒"
+            }, {
+                "src": "http://shop.jiuxian.com/brand-381/activity-3969.htm?area=30&source=31",
+                "text": "老酒特卖"
+            }, {
+                "src": "http://shop.jiuxian.com/brand-371/activity-1069.htm?area=30",
+                "text": "年份酒"
+            }],
+            [{
+                "src": "http://shop.jiuxian.com/index-1171/activity-3211.htm?area=30&isPreview=1#c",
+                "text": "地域名酒"
+            }, {
+                "src": "http://shop.jiuxian.com/index-1171/activity-3405.htm?area=30",
+                "text": "值得买"
+            }, {
+                "src": "http://shop.jiuxian.com/brand-371/activity-440.htm?area=30",
+                "text": "实惠大坛"
+            }, {
+                "src": "http://shop.jiuxian.com/brand-371/activity-709.htm?area=30",
+                "text": "有礼有面"
+            }]
+        ]
+    }, {
+        "title": "白酒",
+        "href": "http://list.jiuxian.com/1-0-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+        "text": [
+            [{
+                "src": "http://shop.jiuxian.com/brand-382/activity-3376.htm?area=30",
+                "text": "茅台"
+            }, {
+                "src": "http://list.jiuxian.com/1-2-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "五粮液"
+            }, {
+                "src": "http://shop.jiuxian.com/brand-41/activity-3399.htm?area=30&source=23",
+                "text": "酒鬼"
+            }, {
+                "src": "http://list.jiuxian.com/1-4-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "汾酒"
+            }],
+            [{
+                "src": "http://list.jiuxian.com/1-0-0-0-126-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "浓香型"
+            }, {
+                "src": "http://list.jiuxian.com/1-0-0-0-97-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "酱香型"
+            }, {
+                "src": "http://list.jiuxian.com/1-0-0-9500-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "贵州"
+            }, {
+                "src": "http://list.jiuxian.com/1-0-0-9485-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "四川"
+            }]
+        ]
+    }, {
+        "title": "葡萄酒",
+        "href": "http://list.jiuxian.com/2-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+        "text": [
+            [{
+                "src": "http://list.jiuxian.com/2-0-9437-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "法国"
+            }, {
+                "src": "http://list.jiuxian.com/2-0-9442-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "澳大利亚"
+            }, {
+                "src": "http://list.jiuxian.com/2-0-9439-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "西班牙"
+            }, {
+                "src": "http://list.jiuxian.com/2-0-9443-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "智利"
+            }],
+            [{
+                "src": "http://list.jiuxian.com/2-0-9436-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "中国"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?v=2&key=%E6%8B%89%E8%8F%B2&isOwn=1&area=30",
+                "text": "拉菲"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?v=2&key=%E5%A5%94%E5%AF%8C&isOwn=1&area=30",
+                "text": "奔富"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?key=%E9%BB%84%E5%B0%BE%E8%A2%8B%E9%BC%A0&area=30",
+                "text": "黄尾袋鼠"
+            }]
+        ]
+    }, {
+        "title": "洋酒",
+        "href": "http://list.jiuxian.com/4-0-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+        "text": [
+            [{
+                "src": "http://list.jiuxian.com/4-110-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "马爹利"
+            }, {
+                "src": "http://list.jiuxian.com/4-112-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "人头马"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?key=%E5%B0%8A%E5%B0%BC%E8%8E%B7%E5%8A%A0&area=30",
+                "text": "尊尼获加"
+            }, {
+                "src": "http://list.jiuxian.com/4-109-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "芝华士"
+            }],
+            [{
+                "src": "http://list.jiuxian.com/4-113-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "轩尼诗"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?area=30&keys=%E7%BB%9D%E5%AF%B9",
+                "text": "绝对"
+            }, {
+                "src": "http://list.jiuxian.com/4-219-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "百龄坛"
+            }]
+        ]
+    }, {
+        "title": "啤酒/黄酒/养生酒",
+        "href": "http://list.jiuxian.com/151-0-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+        "text": [
+            [{
+                "src": "http://list.jiuxian.com/151-2542-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "埃丝伯爵"
+            }, {
+                "src": "http://list.jiuxian.com/151-117-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "青岛"
+            }, {
+                "src": "http://list.jiuxian.com/151-3542-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "1664"
+            }, {
+                "src": "http://list.jiuxian.com/95-144-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+                "text": "古越龙山"
+            }],
+            [{
+                "src": "http://list.jiuxian.com/6-407-0-0-0-0-0-0-0-0-0-0.htm?area=30",
+                "text": "劲牌"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?key=%E7%8C%8E%E9%B9%B0&cg=151&area=30#v2",
+                "text": "猎鹰"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?key=%E7%8B%AE%E8%99%8E%E4%BA%89%E9%9C%B8&area=30",
+                "text": "狮虎争霸"
+            }]
+        ]
+    }, {
+        "title": "食尚",
+        "href": "http://list.jiuxian.com/68-0-0-0-0-0-0-0-0-0-0-0.htm?area=30#v2",
+        "text": [
+            [{
+                "src": "http://list.jiuxian.com/search.htm?key=%E9%85%92%E5%85%B7&area=30",
+                "text": "酒具"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?key=%E8%8C%B6&area=30",
+                "text": "茶叶"
+            }, {
+                "src": "http://list.jiuxian.com/search.htm?key=%E7%94%B5%E5%AD%90%E7%83%9F&area=30",
+                "text": "电子烟"
+            }]
+        ]
+    }],
+    [{
+        "name": "home_zhudaoshouye",
+        "id": "httpwwwjiuxiancom",
+        "href": "http://www.jiuxian.com/",
+        "text": "首页"
+    }, {
+        "name": "home_zhudao1",
+        "id": "httpshopjiuxiancombrand-386activity-3455htm",
+        "href": "http://shop.jiuxian.com/brand-386/activity-3455.htm",
+        "text": "自营甄选"
+    }, {
+        "name": "home_zhudao2",
+        "id": "httpshopjiuxiancombrand-381activity-3796htm",
+        "href": "http://shop.jiuxian.com/brand-381/activity-3796.htm",
+        "text": "爆品腰斩日"
+    }, {
+        "name": "home_zhudao3",
+        "id": "httpwinejiuxiancom",
+        "href": "http://wine.jiuxian.com/",
+        "text": "葡萄酒馆"
+    }, {
+        "name": "home_zhudao4",
+        "id": "httpshopjiuxiancomindex-1171activity-3405htm",
+        "href": "http://shop.jiuxian.com/index-1171/activity-3405.htm",
+        "text": "值得买"
+    }, {
+        "name": "home_zhudao5",
+        "id": "httpspiritsjiuxiancom",
+        "href": "http://spirits.jiuxian.com/",
+        "text": "洋酒馆"
+    }, {
+        "name": "home_zhudao6",
+        "id": "httpshopjiuxiancombrand-382activity-2932htm",
+        "href": "http://shop.jiuxian.com/brand-382/activity-2932.htm",
+        "text": "新品"
+    }, {
+        "name": "home_zhudao7",
+        "id": "httpshopjiuxiancombrand-381activity-2207htm",
+        "href": "http://shop.jiuxian.com/brand-381/activity-2207.htm",
+        "text": "CLUB"
+    }, {
+        "name": "home_zhudao8",
+        "id": "httpshopjiuxiancombrand-383activity-3031htm",
+        "href": "http://shop.jiuxian.com/brand-383/activity-3031.htm",
+        "text": "门店加盟"
+    }]
+
+
+]
