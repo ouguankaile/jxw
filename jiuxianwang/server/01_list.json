@@ -156,7 +156,8 @@
                 "src": "http://list.jiuxian.com/search.htm?key=%E9%85%92%E5%85%B7&area=30",
                 "text": "酒具"
             }, {
-                "src": "http://list.jiuxian.com/search.htm?key=%E8%8C%B6&area=30",
+               
+                "src": "http://127.0.0.1/jxw/jiuxianwang/client/src/html/06_tea.html",
                 "text": "茶叶"
             }, {
                 "src": "http://list.jiuxian.com/search.htm?key=%E7%94%B5%E5%AD%90%E7%83%9F&area=30",
@@ -209,7 +210,9 @@
         "id": "httpshopjiuxiancombrand-383activity-3031htm",
         "href": "http://shop.jiuxian.com/brand-383/activity-3031.htm",
         "text": "门店加盟"
-    }]
-
-
+    }],
+    ["../../../server/img/list_1.png","../../../server/img/list_2.png","../../../server/img/list_3.png",
+        "../../../server/img/list_4.png",
+        "../../../server/img/list_5.png","../../../server/img/list_6.png"
+]
 ]

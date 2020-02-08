@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        div{
-            height: 500px;
-            width: 1900px;
-            background: url('http://img06.jiuxian.com/bill/2020/0108/84a445c642fd4912aff659b2bea10f95.jpg') center 0px no-repeat;
-        }
-    </style>
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="../sanjiliandng/src/distpicker.data.js"></script>
+    <script src="../sanjiliandng/src/distpicker.js"></script>
 </head>
 
 <body>
-    6666666
-    <div></div>
+    <div data-toggle="distpicker">
+        <select data-province="---- 选择省 ----"></select>
+        <select data-city="---- 选择市 ----"></select>
+        <select data-district="---- 选择区 ----"></select>
+      </div>     
+      <img src="./06_tea.html" alt="">
+<script >
+      $('#target').distpicker({
+        province: '---- 所在省 ----',
+        city: '---- 所在市 ----',
+        district: '---- 所在区 ----'
+      }); 
+      
+</script>
 </body>
-
 </html>

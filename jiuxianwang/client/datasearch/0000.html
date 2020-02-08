@@ -1,0 +1,76 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset=" utf-8">
+<meta name="author" content="http://www.softwhy.com/" />
+<title>千千</title>
+<style type="text/css">
+Ol{
+  width:500px;
+  font-size:12px;
+  line-height:25px;
+}
+</style>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  hight();
+  var $seldel = undefined;
+  var seldel = undefined;
+   
+  //高亮选中
+  function hight(){
+    $("li").click(function(){
+      $("li").css("backgroundColor", "#ccc");
+      this.style.backgroundColor = "green";
+      $seldel=$(this);
+      seldel=this;
+    });
+  }
+  //使用jquery添加对象
+  $("#btnAdd").click(function(){
+    var input = window.prompt("输入数据");
+    var $newli = $("<li>" + input + "</li>");
+    $newli.appendTo("#Ol");
+    hight();
+  });
+    
+  //使用jquery删除对象
+  $("#btnDel").click(function(){
+    $seldel.remove(); 
+  });
+    
+  //使用jquery插入数据
+  $("#btnInsert").click(function(){
+    var input=window.prompt("输入插入的数据");
+    var $newli=$("<li>"+ input+"</li>");
+    $newli.insertBefore($seldel);
+    hight();
+  });
+    
+  //使用jquery编辑选中的数据
+  $("#btnEdit").click(function(){
+    var oldtxt=$seldel.html();
+    var $edit=$("<input id='btnE' type='text' value='" + oldtxt + "'/>");
+    $seldel.html($edit);
+    $edit.focus();
+    $edit.blur(function(){
+      var newtxt = $(this).val();
+      $seldel.html(newtxt);
+    });
+  });
+})
+</script>
+</head>
+<body>
+<ol id="Ol">
+  <li>千千一</li>
+  <li>千千二</li>
+  <li>千千三</li>
+  <li>千千四</li>
+</ol>
+<input id="btnAdd" type="button" value="添加数据" />
+<input id="btnDel" type="button" value="删除数据" />
+<input id="btnInsert" type="button" value="插入数据" />
+<input id="btnEdit" type="button" value="编辑数据" />
+</body>
+</html>

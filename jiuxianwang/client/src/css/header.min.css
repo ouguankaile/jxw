@@ -324,7 +324,7 @@
 }
 
 .midHeaderCon {
-    width: 1000px;
+    width: 1200px;
     height: 125px;
     margin: 0 auto
 }
@@ -361,7 +361,7 @@
 }
 
 .headerSearch {
-    width: 340px;
+    width: 540px;
     float: left;
     display: inline-block;
     margin: 32px 0 0 20px
@@ -491,7 +491,7 @@
 
 .headerSearch .hotWords {
     width: 340px;
-    height: 18px;
+    height: 20px;
     overflow: hidden;
     padding-top: 5px
 }
@@ -561,7 +561,7 @@
 }
 
 .navWrap .nav {
-    width: 1000px;
+    width: 1200px;
     height: 34px;
     margin: 0 auto;
     position: relative;
@@ -666,33 +666,33 @@
 }
 
 .categoryBox {
-    width: 186px;
+    width: 190px;
     height: 468px;
-    border: 2px solid #c00;
+    /* border: 2px solid #c00; */
     border-top: 0;
     font-family: "微软雅黑";
     position: absolute;
     top: 34px;
     left: 0;
     z-index: 99;
-    display: none
+    /* display: none */
 }
 
 .categoryBox li {
     float: left;
-    width: 186px;
+    width: 190px;
     height: 81px;
     background: #fff;
     border-bottom: 1px solid #e4e4e4
 }
 
-.categoryBox li.last {
-    height: 58px;
+.categoryBox li:nth-last-child(1) {
+    height: 60px;
     border-bottom: 0
 }
 
-.categoryBox li.last .catItemCon {
-    height: 58px
+.categoryBox li:nth-last-child(1) .catItemCon {
+    height: 60px
 }
 
 .categoryBox li.on {
@@ -703,7 +703,7 @@
     width: 163px;
     height: 81px;
     padding: 0 10px;
-    border-left: 3px solid #fff
+    /* border-left: 3px solid #fff */
 }
 
 .categoryBox li.on .catItemCon {
@@ -797,394 +797,31 @@
 }
 
 .menuBox {
-    width: 615px;
+    /* width: 615px; */
     height: 470px;
     position: absolute;
-    left: 188px;
+    left: 190px;
     top: 34px;
-    z-index: 301;
+    z-index: 200;
+    display: none;
     box-shadow: 0 0 4px 0 #ccc
 }
-
-.menuBoxFirst {
-    width: 0;
-    height: 0
-}
-
-.menuBox .menuCon {
-    width: 400px;
+.menuBox img {
     height: 470px;
-    float: left;
-    display: inline-block;
-    background: #f1f1f1;
-    overflow: hidden
 }
 
-.menuItem .menuItemTitle {
-    width: 60px;
-    float: left;
-    padding: 10px 10px 10px 20px;
-    line-height: 22px;
-    text-align: right;
-    border-top: 1px solid #f1f1f1
+.catItem:hover{
+    background-color: #ccc;
+    border-left :4px solid transparent;
+    margin-left: 4px;
 }
 
-.menuItem.first .menuItemTitle {
-    border-top: 0
+.catItem:hover .catItemCon{
+    margin-left: -8px;
 }
-
-.menuItem .menuItemTitle h4 {
-    font-size: 12px;
-    color: #333;
-    font-weight: normal;
-    font-family: "微软雅黑";
-    overflow: hidden;
-    white-space: nowrap
-}
-
-.menuItem .menuItemCon {
-    float: left;
-    background: #fff
-}
-
-.menuItem .menuItemCon .menuCon-list {
-    width: 280px;
-    margin: 0 15px 0 15px;
-    padding: 10px 0 10px;
-    overflow: hidden;
-    border-top: 1px dotted #ccc
-}
-
-.menuItem.first .menuItemCon .menuCon-list {
-    border-top: 0;
-    padding: 15px 0 10px
-}
-
-.menuHeight .menuItemTitle {
-    width: 90px;
-    float: left;
-    height: 1px;
-    line-height: 1px
-}
-
-.menuHeight .menuItemCon {
-    float: left;
-    background: #fff
-}
-
-.menuHeight .menuItemCon .menuCon-list {
-    width: 280px;
-    height: 0;
-    margin: 0 15px 0 15px
-}
-
-.menuCon-list p {
-    margin: 0 0 0 -1px;
-    line-height: 22px;
-    max-height: 176px;
-    _height: 176px;
-    overflow: hidden
-}
-
-.menuCon-list p a {
-    display: inline-block;
-    float: left;
-    white-space: nowrap;
-    padding: 0 8px;
-    background: url(../../img/newIndexImg/menuLine.jpg) no-repeat scroll left center
-}
-
-.menuCon-list p a.hot {
-    color: #f60
-}
-
-.menuCon-list p a:hover {
-    text-decoration: none
-}
-
-.menuCon-list p a.more {
-    color: #f60;
-    font-family: "宋体"
-}
-
-.menuCon-list p.menuCon-brand a {
-    width: 71px;
-    padding: 0;
-    margin: 0 8px;
-    background: 0;
-    overflow: hidden
-}
-
-.menuFoc {
-    width: 215px;
-    height: 470px;
-    float: left;
-    position: relative;
-    z-index: 201
-}
-
-.menuFoc a {
+.appear{
     display: block;
-    width: 220px;
-    height: 470px;
-    position: absolute;
-    top: 0;
-    right: -5px
 }
-
-.menuBox.notFoc .menuCon {
-    width: 615px
-}
-
-.menuBox.notFoc .menuItem .menuCon-list {
-    width: 495px
-}
-
-.menuBox.notFoc .menuFoc {
-    display: none
-}
-
-.menuBox.notFoc .menuHeight .menuCon-list {
-    width: 495px;
-    margin: 0 15px 0 15px
-}
-
-.menuBox.menuLiquor .menuItem .menuItemTitle {
-    width: 36px;
-    padding: 10px 10px 10px 14px
-}
-
-.menuBox.menuLiquor .menuItem.first .menuItemTitle {
-    padding: 15px 10px 10px 14px
-}
-
-.menuBox.menuLiquor .menuHeight .menuItemTitle {
-    width: 60px
-}
-
-.menuBox.notFoc.menuLiquor .menuItem .menuCon-list {
-    width: 525px
-}
-
-.menuBox.notFoc.menuLiquor .menuHeight .menuCon-list {
-    width: 525px;
-    margin: 0 15px 0 15px
-}
-
-.menuCon-filter {
-    width: 525px;
-    height: 18px;
-    padding: 5px 0 12px;
-    overflow: hidden
-}
-
-.menuCon-filter ul {
-    width: 535px
-}
-
-.menuCon-filter ul li {
-    float: left
-}
-
-.menuCon-filter ul li a {
-    display: inline-block;
-    padding: 0 5px;
-    height: 18px;
-    line-height: 18px;
-    position: relative;
-    z-index: 202
-}
-
-.menuCon-filter ul li a:hover {
-    color: #cc0001;
-    text-decoration: none
-}
-
-.menuCon-filter ul li.boutique a {
-    padding: 0 4px;
-    margin-right: 2px
-}
-
-.menuCon-filter ul li.on a {
-    color: #fff;
-    background: #cc0001
-}
-
-.menuCon-filter ul li.on a:hover {
-    color: #fff;
-    text-decoration: none
-}
-
-.menuCon-filter ul li a i {
-    width: 11px;
-    height: 5px;
-    position: absolute;
-    bottom: -4px;
-    left: 3px;
-    background-position: -114px 0;
+.disappear{
     display: none;
-    overflow: hidden
-}
-
-.menuCon-filter ul li.boutique a i {
-    left: 24px
-}
-
-.menuCon-filter ul li.on a i {
-    display: inline-block
-}
-
-.popMask {
-    display: none;
-    background: #000;
-    width: 100%;
-    height: 100%;
-    z-index: 10000;
-    position: fixed;
-    left: 0;
-    top: 0;
-    opacity: .5;
-    filter: alpha(opacity=50);
-    /* _position: absolute;
-    _top: expression(eval(document.documentElement.scrollTop)) */
-}
-
-.popBox {
-    display: none;
-    width: 400px;
-    height: 200px;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    padding: 5px;
-    margin: -105px 0 0 -205px;
-    background: url(../../images/popBg.png);
-    border-radius: 5px;
-    box-shadow: 0 0 6px 1px #828282;
-    z-index: 10001;
-    /* _position: absolute;
-    _top: expression(eval(document.documentElement.scrollTop)+400) */
-}
-
-.popBox .popLayer {
-    background: #fff;
-    border-radius: 3px
-}
-
-.popBox .popTitle {
-    height: 40px;
-    line-height: 40px;
-    background: #c40001;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    padding-left: 16px
-}
-
-.popBox .popTitle span {
-    float: left;
-    color: #fff;
-    font-size: 14px
-}
-
-.popBox .popTitle i {
-    background-position: -4px -333px;
-    display: inline-block;
-    float: right;
-    width: 14px;
-    height: 14px;
-    cursor: pointer;
-    margin: 13px 13px 0 0
-}
-
-.popBox .popMain {
-    height: 80px;
-    background: #fff;
-    padding: 40px 50px 0 50px
-}
-
-.popBox .popMain .popType {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    float: left
-}
-
-.popBox .popMain .success {
-    background-position: 0 -287px
-}
-
-.popBox .popMain .alarm {
-    background-position: -41px -287px
-}
-
-.popBox .popMain .fail {
-    background-position: -81px -287px
-}
-
-.popBox .popMain .confirm {
-    background-position: -123px -287px
-}
-
-.popBox .popMain p {
-    font-size: 16px;
-    font-family: "微软雅黑";
-    color: #000;
-    float: right;
-    width: 250px;
-    height: 40px;
-    overflow: hidden
-}
-
-.popBox .popMain p span {
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle;
-    height: auto
-}
-
-.popBox .popMain p em {
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-    width: 0;
-    overflow: hidden
-}
-
-.popBox .popBtnBox {
-    height: 40px;
-    background: #f1f1f1;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    text-align: right;
-    padding-right: 25px
-}
-
-.popBox .popBtnBox span {
-    display: inline-block;
-    width: 58px;
-    height: 22px;
-    font-size: 0;
-    border-radius: 2px;
-    text-align: center;
-    line-height: 22px;
-    cursor: pointer;
-    margin: 8px 0 0 5px
-}
-
-.popBox .popBtnBox .sure {
-    border: 1px solid #c40001;
-    color: #c40001;
-    background: #ffe6e6
-}
-
-.popBox .popBtnBox .cancel {
-    border: 1px solid #ccc;
-    color: #666;
-    background: #fff
-}
-
-.popBox .popBtnBox span b {
-    font-size: 12px;
-    font-weight: normal;
-    display: inline-block
 }

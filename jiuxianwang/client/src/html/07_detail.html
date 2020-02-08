@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品页</title>
+    <link rel="stylesheet" href="../css/bass.min.css">
+    <link rel="stylesheet" href="../css/header.min.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../reg-icon/iconfont.css">
+    <link rel="stylesheet" href="../css/07_deatail.css">
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <!-- <script src="../lib/08_cart.js"></script> -->
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="content">
+        <div class="box">
+            <div class="dGuide">
+                <a target="_self" href="../html/01_index.html">首页</a><i>&gt;</i><a href="../html/06_tea.html"
+                    target="_self">食尚</a><i>&gt;</i><a href="javascript:;" target="_self">云顶</a>
+                <i>&gt;</i><span class="d-cur">云顶陈年贡茶（50） 普洱（熟茶）紧压茶</span>
+            </div>
+            <div class="dIntro">
+                <!-- 左侧 -->
+                <div class="introShow clearfix">
+                    <div class="show-pic">
+
+                    </div>
+                    <div class="max-img">
+                    </div>
+                    <div class="show-list">
+                        <a href="javascript:;" class="show-list-prev">&lt;</a>
+                        <div class="show-list-con">
+                            <ul class="clearfix">
+                                <li class="on"><a href="javascript:;"></a></li>
+                                <li><a href="javascript:;"><img src="../img/img01.jpg"></a></li>
+                                <li><a href="javascript:;"><img src="../img/img02.jpg"></a></li>
+                                <li><a href="javascript:;"><img src="../img/img03.jpg"></a></li>
+                            </ul>
+                        </div>
+                        <a href="javascript:;" class="show-list-next">&gt;</a>
+                    </div>
+                    <div class="showOther">
+                        <div class="goodsNo">商品编号：<span>99001480</span></div>
+                        <div class="sOtherRight">
+                            <div class="showCollect"><a><i class="dIcon"></i><span>收藏
+                                        （<em>0</em>）
+                                    </span></a></div>
+                            <div class="showShare sShare-list"><i class="dIcon"></i><span>分享</span>
+                                <div class="bshare-custom">
+                                    <a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"
+                                        rel="nofollow"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 中间 -->
+                <div class="introInfo">
+                    <div class="comName">
+                        <h1>
+                        </h1>
+                    </div>
+                    <div class="infoItems comSummary priceBox">
+                        <div class="infoTit">酒仙价</div>
+                        <div class="infoCon infoPri" id="nowPrice"><span class="pri"><em>￥</em>
+                                <strong>129.00</strong></span>
+                        </div>
+                        <div class="clubDisc"><span>会员下单再享98折,可省2.58元</span><a
+                                href="./07_detail.html">开通会员<i>&gt;</i></a></div>
+                    </div>
+                    <div class="salesScoreGold">
+                        <ul>
+                            <li class="comSales"><i class="dIcon ssg"></i><span>累计销量</span><em>1118</em></li>
+                            <li class="comScore"><i class="dIcon ssg"></i><span>酒友评分</span><em>5.0</em></li>
+                            <li class="comGold"><i class="dIcon ssg"></i><span>送金币</span><em>64</em><a
+                                    class="dIcon point" target="_blank"
+                                    href="http://help.jiuxian.com/view-2-210.htm"></a></li>
+                        </ul>
+                    </div>
+                    <div class="infoWrap">
+                        <div class="infoItems">
+                            <div class="infoTit">津　贴</div>
+                            <div class="infoCon infoCoupons">
+                                <div class="jt-list" id="allowance-tip"><i
+                                        class="jxjt">酒仙津贴</i>每满399减30,领取津贴全平台可用,<span>点击领取<em>&gt;&gt;</em></span></div>
+                            </div>
+                            <div class="infoItems cityBox">
+                                <div class="infoTit">配送到</div>
+                                <div class="infoCon infoCity">
+                                    <div class="citySelect">
+                                        <a name="detail_dizhi" class="dOrder-city-sel" href="javascript:;"><b
+                                                pid="2">北京</b><b pid="52">北京市</b><b pid="500">东城区</b><i
+                                                class="dIcon"></i></a><strong>有货！</strong>
+                                    </div>
+                                    <span class="deliveryTime" id="presell_delivery_date" style="display: none">
+                                        <i class="dIcon"></i><em id="presell_delivery_date_em">预计2019年7月19号发货</em>
+                                    </span>
+                                    <!-- 送货地址 -->
+                                    <div style="display:none;" class="depit_citydrp">
+                                        <h5 class="h5_dptctdrp">
+                                            <a href="javascript:;" pid="2"><em>北京</em><i></i></a><!-- 省 -->
+                                            <a href="javascript:;" pid="52"><em>北京市</em><i></i></a><!-- 市 -->
+                                            <a href="javascript:;" pid="500"><em>东城区</em><i></i></a><!-- 县 -->
+                                        </h5>
+                                    </div>
+                                    <!-- 送货地址end -->
+
+                                </div>
+                                <div class="infoItems bayNumBox">
+                                    <div class="infoTit">数　量</div>
+                                    <div class="infoCon infoBuyNum">
+                                        <div class="buyNum">
+                                            <input type="text" id="_nub" value="1" ><a
+                                                href="javascript:;" class="dIcon buyNum-btn buyNum-add">︿</a><a
+                                                href="javascript:;" class="dIcon buyNum-btn buyNum-reduce">﹀</a></div>
+                                        <div class="buyPro">每购买1瓶，即赠送原厂手提袋1个</div>
+                                    </div>
+                                </div>
+                                <div class="infoItems bayBtnBox">
+                                    <div class="infoCon infoBuy" id="btnDetail">
+                                        <a name="detail_jiarugouwuche" id="addToCartForDetail" href="javascript:;"
+                                            class="buyBtn buyBtn-cart">加入购物车</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右侧 -->
+                <div class="introOther">
+                    <div class="introLogo">
+                        <div class="introP">
+                            <a target="_blank" href="./07_detail.html">
+                                <img width="165" height="70" alt="国井" src="../img/ziyinglogo.png"><span>国井</span></a>
+                            <i class="jxzy">酒仙自营</i>
+                        </div>
+                    </div>
+                    <div class="introSaf">
+                        <ul>
+                            <li>
+                                <p class="safNam"><img
+                                        src="http://img06.jiuxian.com/bill/2016/0309/3d43576517d54bccb50f3303c01a746e.png"
+                                        width="20" height="22"><strong>售后无忧</strong></p>
+                                <p class="safCon">7天无理由退换货 </p>
+                            </li>
+                            <li>
+                                <p class="safNam"><img
+                                        src="http://img07.jiuxian.com/bill/2016/1118/e3cc31af13d34212968755758f6d8326.png"
+                                        width="20" height="22"><strong>售后补充</strong></p>
+                                <p class="safCon">啤/老酒无理由不退换 </p>
+                            </li>
+                            <li>
+                                <p class="safNam"><img
+                                        src="http://img10.jiuxian.com/bill/2016/0309/9d48055fc8a44a51adaee8fa744d0c35.png"
+                                        width="20" height="22"><strong>满100包邮</strong></p>
+                                <p class="safCon">全场满100包邮 </p>
+                            </li>
+                            <li>
+                                <p class="safNam"><img
+                                        src="http://img08.jiuxian.com/bill/2016/0309/c9bbc2cbaca44eeb887db4182ee8b344.png"
+                                        width="20" height="22"><strong>正品保障</strong></p>
+                                <p class="safCon">厂家直供 品质放心 </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="kefudetail" class="cusBgBox">
+                        <a class="cusBg dh1"><i></i><span>在线客服</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧购物车列表 -->
+        <div class="rightSidebarBox">
+            <div class="rightSidebar">
+                <div class="rSidebarItem user"><a href="javascript:;">我</a></div>
+                <div class="rSidebarItem collectSidebar">
+                    <a href="javascript:;">收藏</a>
+                </div>
+                <div class="rSidebarItem cart">
+                    <a href="javascript:;">购<br>物<br>车</a>
+
+                </div>
+
+                <div class="rSidebarItem kefusidebar"> <a href="javascript:;">客服</a>
+                </div>
+                <!-- 我的展开 -->
+                <div class="sidebarUserLogin">
+
+                </div>
+                <!-- 收藏展开 -->
+                <div class="sidebarCollectLogin">
+
+                </div>
+
+                <!-- 购物车展开 -->
+                <div class="rsCartBox" id="rsCartBox" flag="show">
+                    <div class="rsCartClose">×</div>
+                    <div class="rsCartTit">
+                        <h3>购物车</h3>
+                    </div>
+                    <div class="rsCartCon">
+                        <div class="rsCartTabBox">
+                            <div class="rsCartTable" id="rsCartTable">
+                                <!-- <div class="rsCartItem clearfix">
+                                    <div class="cartItemInfo info01">
+                                        <div class="rsCartCom-pic"><a href="http://www.jiuxian.com/goods-86564.html"
+                                                target="_blank">
+                                        <img alt="老白茶 福鼎白茶375g老寿眉白茶"
+                                src="https://img08.jiuxian.com/2019/0416/870d3f30140b4f7b967eedc1f02dbb3c1.jpg"></a></div>
+                                        <div class="rsCartCom-name">
+                                            <p><a href="http://www.jiuxian.com/goods-86564.html" target="_blank"
+                                                    title="老白茶 福鼎白茶375g老寿眉白茶">老白茶 福鼎白茶375g老寿眉白茶</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="cartItemInfo info02">
+                                        <div class="comAmount">
+                                            <a href="javascript:;" class="calc dec">-</a>
+                                            <span id="xgnum">1</span>
+                                            <a href="javascript:;" class="calc plus">+</a>
+                                        </div>
+                                    </div>
+                                    <div class="cartItemInfo info03">￥399</div>
+                                    <div class="del">×
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="rsCartTotal clearfix">
+                            <div class="amountAll" id="amountAll"><b>0</b>件商品</div>
+                            <div class="priAll" id="priAll">￥<span>0</span></div>
+                        </div>
+                        <div class="rsCartBut"><a class="rsCartBut-bay" href="./08_cart.html">去购物车结算</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 客服展开 -->
+                <div class="sidebarKefuLogin">
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script>
+        $(() => {
+            $("#header").load("./02_header.html")
+            $("#footer").load("./03_footer.html")
+        })
+    </script>
+    <script src="../lib/07_detail.js"></script>
+
+</body>
+
+</html>

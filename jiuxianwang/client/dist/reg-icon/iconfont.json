@@ -1,0 +1,93 @@
+{
+  "id": "1609931",
+  "name": "jxw",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "344459",
+      "name": "用户名",
+      "font_class": "firmAccount",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "485741",
+      "name": "叉号",
+      "font_class": "regFalse",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "834153",
+      "name": "刷新",
+      "font_class": "icon-refresh",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "898448",
+      "name": "盾牌(1)",
+      "font_class": "accCap",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "1105010",
+      "name": "手机",
+      "font_class": "accCheck",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "1240783",
+      "name": "地址",
+      "font_class": "firmAddress",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "1272139",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1613453",
+      "name": "邮箱",
+      "font_class": "firmEmail",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "3217825",
+      "name": "锁头",
+      "font_class": "accPass",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "4488838",
+      "name": "公司名称",
+      "font_class": "firmCompany",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "4954933",
+      "name": "购物车",
+      "font_class": "cart",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "12751549",
+      "name": "我的",
+      "font_class": "accName",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}

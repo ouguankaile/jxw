@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.cart {
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background: rgb(206, 6, 6);
+    margin: 0 auto;
+
+}
+
+
+.rsCartBox {
+
+    width: 100%;
+    height: calc(100% - 142px);
+    background: #fff;
+    border-left: 1px solid #ddd;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.rsCartBox .rsCartTit {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    padding: 0 15px;
+    background-color: #f3f3f3;
+    border-bottom: 1px dashed #ccc;
+}
+.rsCartBox .rsCartTit h2{
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.rsCartBox .rsCartTit span{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.rsCartBox .rsCartTit .go{
+    width: 25%;
+}
+
+.rsCartBox .rsCartTit h3 {
+    font-size: 20px;
+    line-height: 52px;
+}
+
+.rsCartBox .rsCartCon {
+    width: 100%;
+    height: calc(100% - 52px);
+}
+
+.rsCartBox .rsCartCon .rsCartTotal {
+    width: 100%;
+    height: 51px;
+    padding: 0 10px 0 15px;
+    left: 0;
+    bottom: 99px;
+    position: absolute;
+    background-color: #f3f3f3;
+
+}
+
+.rsCartBox .rsCartCon .rsCartTotal .amountAll {
+    width: 200px;
+    height: 51px;
+    left: 50px;
+    bottom: 0px;
+    position: absolute;
+    font-size: 14px;
+    line-height: 51px;
+    
+}
+
+.rsCartBox .rsCartCon .rsCartTotal .amountAll b {
+
+    color: red;
+}
+
+.rsCartBox .rsCartCon .rsCartTotal .priAll {
+    width: 200px;
+    height: 51px;
+    right: 50px;
+    bottom: 0px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 51px;
+    text-align: right;
+}
+
+.rsCartBox .rsCartCon .rsCartBut {
+    width: 100%;
+    height: 99px;
+    padding: 15px 0 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #f3f3f3;
+}
+
+.rsCartBox .rsCartCon .rsCartBut a {
+    width: 166px;
+    height: 34px;
+    display: block;
+    background: red;
+    color: white;
+    line-height: 34px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.rsCartCon .rsCartTabBox {
+    width: 100%;
+    height: calc(100% - 120px);
+    border-bottom: 1px dashed #ccc;
+}
+
+.rsCartTabBox .rsCartTable {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.rsCartTabBox .rsCartItem {
+    width: 100%;
+    height: 75px;
+    padding: 10px 15px;
+    position: relative;
+    border-bottom: 1px dashed #ccc;
+}
+.rsCartItem .info01 {
+    width: 25%;
+    float: left;
+    margin-left:30px;
+    /* padding: 0 2%; */
+}
+
+.rsCartItem .rsCartCom-pic {
+    width: 54px;
+    height: 54px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 20px;
+}
+
+.rsCartItem .info01 img {
+    width: 52px;
+    height: 52px;
+}
+
+.rsCartItem .info01 .rsCartCom-name {
+    width: 150px;
+    height: 54px;
+    display: inline-block;
+}
+
+.rsCartItem .info01 .rsCartCom-name p a {
+    width: 150px;
+    height: 32px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 10px 0;
+
+}
+
+.rsCartItem .info02{
+    width: 20%;
+    height: 54px;
+    float: left;
+    text-align: center;
+
+}
+.rsCartItem .info02 .calc{
+    width: 20px;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin:0 2px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fff;
+    font-size: 14px;
+}
+.rsCartItem .info03{
+    width: 20%;
+    height: 54px;
+    float:left;
+    padding: 12px 0px;
+    font-size: 12px;
+    color: red;
+    line-height: 30px;
+    text-align: center;
+}
+.rsCartItem .info04{
+    width: 20%;
+    height: 54px;
+    float:left;
+    padding: 12px 0px;
+    font-size: 12px;
+    color: red;
+    line-height: 30px;
+    text-align: center;
+}
+.rsCartItem .del{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:8px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+}
+
+.rsCartTabBox .bgc{
+    background-color: #f3f3f3;
+}
+

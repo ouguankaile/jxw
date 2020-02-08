@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>酒仙网-登录</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../reg-icon/iconfont.css">
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="../captcha-mini-master/demo/captcha.js"></script>
+    <script src="../lib/md5.js"></script>
+    <script src="../lib/05.cookie.js"></script>
+    <script src="../lib/05_login.js"></script>
+</head>
+<body>
+    <div class="jx-wrap">
+        <!-- 头部 -->
+        <div class="jx-top-header">
+            <div class="jx-top-head">
+                <div class="jx-logo">
+                    <p style="background:url(../img/left.jpg) no-repeat;" class="jx-index">
+                        <a target="_blank" href="./01_index.html"></a>
+                    </p>
+                    <a class="jx-topic"><img src="../img/slogan.jpg"></a>
+                </div>
+                <div class="jx-head-nav">
+                    <div class="jx-head-icon">
+                        <span>帮助中心</span>
+                        <i class="jx-jt"></i>
+                    </div>
+                    <div class="jx-head-pop">
+                        <ul>
+                            <li><a href="http://help.jiuxian.com/view-3-117.htm#delivery_01" target="_blank">配送说明</a>
+                            </li>
+                            <li><a href="http://help.jiuxian.com/view-4-120.htm#pay_1" target="_blank">支付方式</a></li>
+                            <li><a href="http://help.jiuxian.com/view-5-123.htm#bz_1" target="_blank">售后服务</a></li>
+                            <li><a href="http://member.jiuxian.com/company.htm" target="_blank">企业客户</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="jx-reg">欢迎来到酒仙网！<a id="regOrLogin" href="./04_1 register.html">免费注册</a></div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <form action="" >
+            <div class="jx-main-bg" style="background:url(../img/logon_lo.jpg) center no-repeat;">
+            <div class="jx-content loginbd clearfix">
+                <a class="picFoucs" href="http://shop.jiuxian.com/brand-386/activity-4109.htm" target="_blank"></a>
+                <div class="jx-contentbd">
+                    <a class="jx-ewmLoginLink" style="display: block;"><i></i></a>
+                    <a class="jx-pcLoginLink" style="display: none;"><i></i></a>
+                    <div class="loginCon">
+                        <div class="loginTit clearfix">
+	            			<a href="javascript:;" class="userLogin on">帐号登录</a>
+	            			<span>|</span>
+	                        <a href="javascript:;" class="mobileLogin">手机动态密码登录</a>	                        
+                        </div>
+                        <!-- 账户登录 -->
+                        <div class="loginType loginUsual" style="display: block;">
+                            <div class="enterFrame">
+                                <div class="filter">
+		            				<em class="userIconBox"><i class="userIcon"></i></em>
+		            				<p>用户名/邮箱/手机号</p>
+		            				<i class="judge" style="display: block;"></i>
+		            				<i class="judgeDel" style="display: none;"></i>
+                                </div>
+                                <input id="userName" class="text" type="text" name="uname" autocomplete="off" value="">
+                                <div class="mistakeTip">请输入用户名/邮箱/手机号</div>
+                            </div>
+                            <div class="enterFrame">
+                                <div class="filter">
+		            				<em class="userIconBox"><i class="userIcon"></i></em>
+		            				<p style="display: block;">请输入密码</p>
+		            				<i class="judge" style="display: block;"></i>
+		            				<i class="judgeDel" style="display: none;"></i>
+                                </div>
+                                <input id="password" class="text" type="password" name="uname" autocomplete="off" value="">
+                                <div class="mistakeTip" style="">请输入密码</div>
+                            </div>
+                            <div class="enterFrame">
+                                <div class="filter">
+		            				<em class="userIconBox"><i class="userIcon"></i></em>
+		            				<p style="display: block;">验证码</p>
+		            				<i class="judge" style="display: block;"></i>
+		            				<i class="judgeDel" style="display: none;"></i>
+                                </div>
+                                <input id="judge" class="text" type="text" name="uname" autocomplete="off" value="">
+
+                                
+                                <div class="judgecheck">
+                                    <canvas width="120" height="42" id="_captchaImage"></canvas>
+                                </div>
+                                <div class="mistakeTip" >请输入验证码</div>
+                            </div>
+                            <div class="loginBtn">
+		            			<input name="bi_Usuallogin" type="button" class="save" value="登&nbsp;&nbsp;录">
+                            </div>
+                            <div class="moreChoice clearfix">
+		            			<div class="auto">
+		            				<input type="checkbox" class="check" id="auto" name="remember" value="yes">
+		            				<label for="auto">自动登录</label>
+								</div>
+								<a class="freeReg" href="./04_1 register.html">免费注册</a>
+								<a class="forgetPwd" id="foget" href="/recoverPwd.htm">忘记密码</a>		
+                            </div>
+                        </div>
+                        
+                        <!-- 手机号登录 -->
+                        <div class="loginType loginMobile" style="display: none;">
+                            <div class="enterFrame enterFrame">
+                                <div class="filter">
+		            				<em class="userIconBox"><i class="userIcon"></i></em>
+		            				<p style="display: block;">手机号</p>
+		            				<i class="judge" style="display: block;"></i>
+		            				<i class="judgeDel" style="display: none;"></i>
+                                </div>
+                                <input id="phone" class="text on" type="text" name="uname" autocomplete="off" value="">
+                                <div class="mistakeTip" >请输入手机号</div>
+                            </div>
+                            <div class="enterFrame yzFrame">
+                                <div class="filter">
+		            				<em class="userIconBox"><i class="userIcon"></i></em>
+		            				<p style="display: block;">验证码</p>
+		            				<i class="judge" style="display: block;"></i>
+		            				<i class="judgeDel" style="display: none;"></i>
+                                </div>
+                                <input id="judgeDel" class="text on" type="text" name="uname" autocomplete="off" value="">
+                                <div class="mistakeTip" >请输入验证码</div>
+                            </div>
+                            <div class="regAccInforBom clearfix">
+							    <div class="regInputBox" style="width:270px;">
+                                    <div class="mistakeTip" style="right: 119px;">请输入校验码</div>
+                                    <div class="checkButBox loginRegbd">
+                                        <span class="regCheckBut logregCheckBtn" id="idenCodePhone" style="display: inline-block;">获取短信验证码</span>
+                                        <span id="idenCodePhoneNum" class="regCheckBut logregCheckBtn" ><em>59</em>秒后重新获取</span></div>
+                                    <div class="regCheck wrong"><input class="regInputLogin text on" id="phoneverification" type="text" name="mobileCheck" autocomplete="off" maxlength="6">
+                                        <em class="userIconBox"><i class="regIcon accCheck"></i></em>
+                                        <span class="regValue">校验码</span>
+                                        <i class="regPointIcon regFalse" style="right: 120px;"></i>
+                                        <span class="regPoint poiFalse">请输入校验码</span></div>
+                                    </div>
+							</div>
+                            <div class="loginBtn">
+		            			<input name="bi_Usuallogin" type="button" class="save" value="登&nbsp;&nbsp;录">
+                            </div>
+                        </div>
+
+                        <!-- 合作伙伴登录 -->
+                        <div class="cooperate">
+                            <p>使用合作账号登录</p>
+                            <div class="cooperateWay clearfix">
+                                <a class="qq" href="/union/qq.htm?from=http://www.jiuxian.com/"><i></i></a>
+                                <a class="sina" href="/union/sina_login.htm?from=http://www.jiuxian.com/"><i></i></a>
+                                <a class="aliPay" href="/union/alipay_login.htm?from=http://www.jiuxian.com/" name="fastlogin"><i></i></a>
+                                <a class="baidu" href="/union/baidu_login.htm?from=http://www.jiuxian.com/"><i></i></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+
+        </form>
+
+
+        <!-- 尾部 -->
+        <div class="jx-footer" style="height: 246px;">
+            <div class="jx-foot">
+                 <p>© &nbsp;酒仙网&nbsp; 2011 jiuxian.com All &nbsp;Rights Reserved&nbsp;&nbsp;<a target="_blank" href="#">京ICP证110141号</a>&nbsp;&nbsp;京公网安备1101050188221</p>
+                 <p class="red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+            </div>
+       </div>
+        <script>
+            $(()=>{      
+                $(".jx-head-icon").mouseenter(()=>{  
+                    $(".jx-head-pop").eq(0).css("display","block");
+                    $(".jx-head-nav").mouseleave(()=>{
+                        $(".jx-head-pop").eq(0).css("display","none");
+                    })
+                })
+                
+            })
+            </script>
+</body>
+</html>

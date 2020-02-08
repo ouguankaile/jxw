@@ -1,0 +1,82 @@
+[   
+    "5F",
+    " 食品", 
+    [
+        {
+        "href": "http://list.jiuxian.com/search.htm?key=%E9%BE%99%E4%BA%95&area=2",
+        "text": "春茶龙井"
+    }, {
+        "href": "http://list.jiuxian.com/68-0-0-0-9653-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=2#v2",
+        "text": "熟食"
+    }, {
+        "href": "http://list.jiuxian.com/68-0-0-0-9651-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=2#v2",
+        "text": "休闲食品"
+    }, {
+        "href": "http://list.jiuxian.com/68-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0.htm?area=2#v2",
+        "text": "酒具"
+    }],
+    [{
+        "href": "http://shop.jiuxian.com/index-1206.htm",
+        "src": "http://img08.jiuxian.com/bill/2019/0613/dc17daa7919b4060bc095972dcdbb5ac.jpg"
+    }, {
+        "href": "http://shop.jiuxian.com/index-1259.htm",
+        "src": "http://img10.jiuxian.com/bill/2019/0613/6f2785d1866c4b4fa0163b5b6fc7af1b.jpg"
+    }, {
+        "href": "http://shop.jiuxian.com/index-1583.htm",
+        "src": "http://img10.jiuxian.com/bill/2019/0613/aa2989380bc945f2b12874e7d7389495.jpg"
+    }, {
+        "href": "http://shop.jiuxian.com/index-1206.htm",
+        "src": "http://img08.jiuxian.com/bill/2019/0613/dc17daa7919b4060bc095972dcdbb5ac.jpg"
+    }],
+    [{
+        "href": "http://www.jiuxian.com/goods-75968.html",
+        "src": "http://img09.jiuxian.com/2018/0830/04a82e0fced64e5cabf68eab021a49872.jpg",
+        "text": "【茶酒礼盒套装】46°+50°兰益松松子酒搭配陈年普洱茶生茶357g",
+        "price": "￥268.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-35610.html",
+        "src": "http://img09.jiuxian.com/2017/0424/cb7436dfade24892b7656e85296a2a9e2.jpg",
+        "text": "南国公主小沱茶普洱茶熟茶200g茶叶",
+        "price": "￥35.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-64311.html",
+        "src": "http://img09.jiuxian.com/2018/0227/1335083b841e410b85009c6b6baf5fec2.jpg",
+        "text": "权禄新鲜鹿茸3.5元/g非进口零食食品可泡茶叶做成鹿茸茶可搭配男性滋补品锁阳冬虫夏草肉苁蓉",
+        "price": "￥3.50"
+    }, {
+        "href": "http://www.jiuxian.com/goods-95893.html",
+        "src": "http://img09.jiuxian.com/2019/0830/5d2284f4cb9845e8ab6212f58b623b302.jpg",
+        "text": "1288型礼卡 蟹之皇大闸蟹8只装",
+        "price": "￥428.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-53334.html",
+        "src": "http://img09.jiuxian.com/2019/0906/446c961766864ab6bfc83068281457d82.jpg",
+        "text": "南国公主勐海之韵生茶普洱茶 茶叶七子饼357g",
+        "price": "￥108.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-85099.html",
+        "src": "http://img09.jiuxian.com/2019/0312/827343e90edd44e69187dff2d7a13df82.jpg",
+        "text": "新华怡品古树晒红茶礼盒 滇红茶28g*6",
+        "price": "￥368.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-49103.html",
+        "src": "http://img09.jiuxian.com/2017/0815/87b2ac5361fc413d8b57be06f3e31f052.jpg",
+        "text": "维诺卡夫CWC-200A压缩机恒温红酒柜",
+        "price": "￥2480.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-35605.html",
+        "src": "http://img09.jiuxian.com/2019/0118/a7699349039440ff8cbfd8109eca7c452.jpg",
+        "text": "南国公主醇品普洱茶生茶357g茶叶（赠礼盒）",
+        "price": "￥119.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-43792.html",
+        "src": "http://img09.jiuxian.com/2017/0607/fcf359e2145c4fe5a2abc18b7928bdd42.jpg",
+        "text": "【宏继】金华小酥饼浙江特产食品传统糕点心正宗小吃零食500g",
+        "price": "￥35.00"
+    }, {
+        "href": "http://www.jiuxian.com/goods-52754.html",
+        "src": "http://img09.jiuxian.com/2019/0731/8582d54ea3d946b384cfe05a1228fcf52.jpg",
+        "text": "蟹萃大闸蟹 公3.5两3只 母 2.0两 3只 (卡券)",
+        "price": "￥358.00"
+    }]
+]

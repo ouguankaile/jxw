@@ -1,0 +1,122 @@
+{
+    "jpTitle": "品牌精品店",
+    "dt": ["url(\"http://misc.jiuxian.com/images/newHomePageImg/1.jpg\") center center no-repeat", "url(\"http://misc.jiuxian.com/images/newHomePageImg/2.jpg\") center center no-repeat", "url(\"http://misc.jiuxian.com/images/newHomePageImg/3.jpg\") center center no-repeat", "url(\"http://misc.jiuxian.com/images/newHomePageImg/4.jpg\") center center no-repeat"],
+    "dd": 
+    [
+        [
+            [{
+                "href": "http://shop.jiuxian.com/brand-196.htm",
+                "text": "兰益松 "
+            }, {
+                "href": "http://www.jiuxian.com/brand-2753.html",
+                "text": "原味老窖"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-337/custom-180.htm",
+                "text": "国五液"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-8.htm",
+                "text": "海福星"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-58.htm",
+                "text": "国隆"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-253.htm",
+                "text": "金不换"
+            }],
+            [{
+                "href": "http://shop.jiuxian.com/brand-348.htm",
+                "text": "元曲 "
+            }, {
+                "href": "http://www.jiuxian.com/brand-762.html",
+                "text": "二锅头酒业股份"
+            }, {
+                "href": "http://www.jiuxian.com/brand-2441.html",
+                "text": "共创益"
+            }]
+        ],
+        [
+            [{
+                "href": "http://shop.jiuxian.com/brand-272.htm",
+                "text": "统一"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-327.htm",
+                "text": "法纳提"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-227.htm",
+                "text": "小企鹅"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-19.htm",
+                "text": "杜隆"
+            }, {
+                "href": "http://sale.jiuxian.com/two/index-245.htm",
+                "text": "沙莊"
+            }, {
+                "href": "http://www.jiuxian.com/brand-274.html",
+                "text": "香格里拉"
+            }],
+            [{
+                "href": "http://shop.jiuxian.com/brand-75.htm",
+                "text": "32领域"
+            }, {
+                "href": "http://shop.jiuxian.com/index-1229.htm",
+                "text": "怡亨"
+            }, {
+                "href": "http://shop.jiuxian.com/index-1290.htm",
+                "text": "怡园"
+            }]
+        ],
+        [
+            [{
+                "href": "http://shop.jiuxian.com/brand-373.htm",
+                "text": "人头马"
+            }, {
+                "href": "http://www.jiuxian.com/brand-113.html",
+                "text": "轩尼诗"
+            }, {
+                "href": "http://shop.jiuxian.com/index-1526.htm",
+                "text": "芝华士"
+            }, {
+                "href": "http://www.jiuxian.com/brand-179.html",
+                "text": "杰克丹尼"
+            }, {
+                "href": "http://list.jiuxian.com/search.htm?area=2&keys=%E7%9C%9F%E9%9C%B2",
+                "text": "真露"
+            }, {
+                "href": "http://www.jiuxian.com/brand-174.html",
+                "text": "尊尼获加"
+            }],
+            [{
+                "href": "http://shop.jiuxian.com/index-1530.htm",
+                "text": "马爹利"
+            }]
+        ],
+        [
+            [{
+                "href": "http://www.jiuxian.com/brand-159.html",
+                "text": "青梅酒"
+            }, {
+                "href": "http://www.jiuxian.com/brand-134.html",
+                "text": "竹叶青"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-79.htm",
+                "text": "诗贝"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-134.htm",
+                "text": "库斯特"
+            }, {
+                "href": "http://shop.jiuxian.com/brand-169.htm",
+                "text": "劲牌"
+            }, {
+                "href": "http://www.jiuxian.com/brand-174.html",
+                "text": "尊尼获加"
+            }],
+            [{
+                "href": "http://www.jiuxian.com/brand-109.html",
+                "text": "芝华士"
+            }, {
+                "href": "http://www.jiuxian.com/brand-430.html",
+                "text": "路易老爷"
+            }]
+        ]
+    ]
+}

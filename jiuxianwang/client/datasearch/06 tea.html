@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./jquery-3.4.1.js"></script>
+</head>
+<body>
+    <script>
+        var list = $(".proListSearch").find("li");
+        var data = [];
+        list.each(function () {
+            var o = {}
+            console.log($(this).find("img"));
+            
+            o.src = $(this).find("img")[0].src;
+            o.price =Number($.trim( $(this).find(".price").text().slice(1)));
+            o.proName = $.trim($(this).find(".proName").text());
+            o.judge = $.trim($(this).find(".judge").text());
+            o.seller = $.trim($(this).find(".seller").text());
+            o.cuxiao = $.trim($(this).find(".cuxiao").text());
+            data.push(o);
+        });
+        console.log(JSON.stringify(data));
+        
+        </script>
+</body>
+</html>

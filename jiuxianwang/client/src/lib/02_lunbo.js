@@ -8,7 +8,7 @@ class Manager {
         this.sliderBox = null;
         this.len = this.data.length;
         this.mainBanner = document.querySelector(".mainBanner");
-        console.log(this.mainBanner);
+        // console.log(this.mainBanner);
 
     }
     init() {
@@ -58,7 +58,6 @@ class Manager {
         if (this.index == this.len) {
             this.index = 0;
         }
-        // $(".bigUl li").eq(this.index).stop().addClass("current").siblings().removeClass("current");;
         $(".bigUl li").eq(this.index).stop().fadeIn().siblings().fadeOut();
         this.switchNavItem();
     }

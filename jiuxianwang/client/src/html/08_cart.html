@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/">
+    <link rel="stylesheet" href="../css/08_cart.css">
+    <script src="../lib/jquery-3.4.1.js"></script>
+
+</head>
+
+<body>
+    <!-- 右侧购物车列表 -->
+    <div class="cart">
+
+        <h1>购物车结算</h1>
+        <!-- 购物车展开 -->
+        <div class="rsCartBox" id="rsCartBox">
+            <!-- <div class="rsCartClose">×</div> -->
+            <div class="rsCartTit">
+                <h2>购物车详情</h2>
+                <span class="go">商品</span>
+                <span class="nu">数量</span>
+                <span class="pr">单价</span>
+                <span class="sum">小计</span>
+
+            </div>
+            <div class="rsCartCon">
+                <div class="rsCartTabBox">
+                    <div class="rsCartTable" id="rsCartTable">
+                        <!-- <div class="rsCartItem clearfix">
+                                <div class="cartItemInfo info01">
+                                    <div class="rsCartCom-pic"><a href="http://www.jiuxian.com/goods-86564.html"
+                                            target="_blank"><img alt="老白茶 福鼎白茶375g老寿眉白茶"
+                                                src="https://img08.jiuxian.com/2019/0416/870d3f30140b4f7b967eedc1f02dbb3c1.jpg"
+                                                width="52" height="52"></a></div>
+                                    <div class="rsCartCom-name">
+                                        <p><a href="http://www.jiuxian.com/goods-86564.html" target="_blank"
+                                                title="老白茶 福鼎白茶375g老寿眉白茶">老白茶 福鼎白茶375g老寿眉白茶</a></p>
+                                    </div>
+                                </div>
+                                <div class="cartItemInfo info02">
+                                    <div class="comAmount">
+                                        <a href="javascript:;" class="calc dec">-</a>
+                                        <span id="xgnum">1</span>
+                                        <a href="javascript:;" class="calc plus">+</a>
+                                    </div>
+                                </div>
+                                <div class="cartItemInfo info03">￥399</div>
+                                <div class="cartItemInfo info04">￥399</div>
+
+                                <div class="del">×
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="rsCartTotal clearfix">
+                    <div class="amountAll" id="amountAll"><b>0</b>件商品</div>
+                    <div class="priAll" id="priAll">共计：￥<span>0.00</span></div>
+                </div>
+                <div class="rsCartBut"><a class="rsCartBut-bay" href="../html/01_index.html">扫码付款</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../lib/08_cart.js"></script>
+</body>
+
+</html>
